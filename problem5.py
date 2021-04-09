@@ -5,7 +5,7 @@ import math
 def evenly_divisible(n):
     #  up to n, not 20
     factors = [0] * n
-    for i in range(n, 2, -1):
+    for i in range(n, 1, -1):
         clone = i
         d = 1
         while clone > 1:
