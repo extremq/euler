@@ -24,7 +24,7 @@ def primeness_sieve(n):
 # e^t * t = -1/10001
 # W(e^t * t) = W(-1/10001)
 # t = W(-1/10001)
-# x = e^-W(-1/10001) and
+# x = e^-W_0(-1/10001) and
 # x = e^-W_-1(-1/10001), since the argument is between 0 and -1/e.
 # this gives us x approx= 1.0001 and x approx= 116684
 # we can add to the second approximation around 10% or 16000 just to make up for the error
